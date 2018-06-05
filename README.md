@@ -1,3 +1,15 @@
+(see below for original README)
+## Video processing
+The code here is to process video or to input a live video from a webcam.
+
+To process a video, change the `capture` in process_video.py to select a video file and then simply run it. To use the webcam input, change it to `cv2.VideoCapture(0)`.
+
+Code from here was used: https://github.com/markjay4k/Mask-RCNN-series
+
+Mind the requirements.txt to know what's required to run everything.
+
+
+(original README starts here)
 # Mask R-CNN for Object Detection and Segmentation
 
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
