@@ -8,6 +8,7 @@ Code from here was used: https://github.com/markjay4k/Mask-RCNN-series
 
 Mind the requirements.txt to know what's required to run everything.
 
+Weights are [here](https://github.com/matterport/Mask_RCNN/releases) (see also below Installation).
 
 (original README starts here)
 # Mask R-CNN for Object Detection and Segmentation
